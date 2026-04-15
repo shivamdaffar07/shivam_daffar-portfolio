@@ -66,12 +66,12 @@ const experiences = [
       'Developed a Social Media Blog API and Recipe Hub using Java, Spring Boot, and RESTful architecture. Focused on backend performance, API design, and scalable web solutions.',
   },
   {
-    title: 'Java Full Stack Intern',
-    company: 'Anudip Foundation',
-    period: '2019 - 2021',
-    description:
-      'Developed and maintained multiple client projects using React, Node.js, and MongoDB. Implemented responsive designs, RESTful APIs, and automated testing.',
-  },
+  title: 'AI & ML Virtual Intern',
+  company: 'EduSkills (AICTE)',
+  period: 'Oct 2024 - Dec 2024',
+  description:
+    'Completed a 10-week AI & ML Virtual Internship supported by Google for Developers. Worked on data analysis, basic machine learning models, and real-world problem-solving using Python and APIs.',
+}
 ];
 
 const ExperienceSection = () => {

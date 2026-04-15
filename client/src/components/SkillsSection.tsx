@@ -1,11 +1,10 @@
 import { motion } from 'framer-motion';
-import { SiSpringboot } from 'react-icons/si';
+import { SiSpringboot, SiMysql } from 'react-icons/si';
 import {
   FaReact,
   FaJs,
   FaHtml5,
   FaCss3Alt,
-  FaNodeJs,
   FaGitAlt,
   FaDocker,
   FaCodeBranch,
@@ -14,7 +13,6 @@ import {
   FaServer,
   FaLinux,
 } from 'react-icons/fa';
-import { SiGraphql, SiMysql } from 'react-icons/si';
 import { staggerContainer, fadeIn } from '@/lib/animations';
 
 interface SkillCardProps {

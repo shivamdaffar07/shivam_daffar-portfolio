@@ -61,45 +61,33 @@ const ProjectCard = ({
 
 const projects = [
   {
-    image:
-      'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=1470&auto=format&fit=crop',
-    title: 'Online Book Store',
+    image: 'https://images.openai.com/static-rsc-4/hJY26KrDrW0hSneQ11peaWpbUTN9gCHylwYUhcT1pzB-saBinPJ6nCIigKh2JLKE4qi-kSaQ6usH0z0NMZGOJKWgEYJfEKMrMhtpMdWjld8aAzr--TkEWCQMyBASTL89gtPAKkoMTmVt99Z6IYhutioRFy7asqlx9DENgNYigwBMPOT_5khKrdYMEFyO4wju?purpose=fullsize',
+    title: 'YouTube Live Chat Sentiment Analysis',
     description:
-      'Developed a full-stack web application featuring user authentication, book catalog, search/filtering, shopping cart, order management, payment integration, and admin dashboard.',
-    technologies: [
-      'Spring Boot',
-      'Spring MVC',
-      'JPA',
-      'Thymeleaf',
-      'MySQL',
-      'Maven',
-      'Git',
-    ],
+      'Built a real-time sentiment analysis system for YouTube live chats using Python and APIs. Extracted live chat data, applied NLP techniques, and classified sentiments to analyze audience engagement during livestreams.',
+    technologies: ['Python', 'APIs', 'NLP', 'Data Analysis'],
     demoUrl: '#',
-    codeUrl: 'https://github.com/Syedasif101/online-book-store',
+    codeUrl: 'https://github.com/shivamdaffar07/YouTube-Livestream-Sentiment-Analysis',
   },
 
   {
-    image:
-      'https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1470&auto=format&fit=crop',
-    title: 'Food Order Management',
+    image: 'https://images.openai.com/static-rsc-4/MoZ9CKmrel2rTYY1E-rntW99JqNxJ9kZ7LQCxCgRVBYcQQACQznburuB8L6F2A5QUYVbjEW1zwU-5Y46MDJHdc3xkvUDUCG3zNQxtGVM78fs27zj4Zh4x0u3OH7LUmMi1VQ7Lvy5D5xXTWMNBaa1f_zUsKfWc79GzHvM2_nPJY8-kCwuq3HVYSxOmqqPdmPM?purpose=fullsize',
+    title: 'Social Media Blog API (Spring Boot)',
     description:
-      'Food ordering web app built using React.js frontend and Node.js backend with admin dashboard and customer ordering features.',
-    technologies: ['React.Js', 'HTML5', 'CSS3', 'TypeScript', 'Node.Js'],
+      'Developed a RESTful backend API for a social media blogging platform using Spring Boot. Implemented authentication, CRUD operations, and database integration for scalable backend services.',
+    technologies: ['Java', 'Spring Boot', 'REST API', 'MySQL'],
     demoUrl: '#',
-    codeUrl: 'https://github.com/Syedasif101/Food-order-management-',
+    codeUrl: 'https://github.com/shivamdaffar07/shivamdaffar07-PEP-SpringSocialMediaBlogAPI-Project',
   },
 
   {
-    image:
-      'https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1470&auto=format&fit=crop',
-    title: 'Recipe Hub',
+    image: 'https://images.openai.com/static-rsc-4/Cfdc4uAfoCsvrVPS5xo_Hz2Pa-gc8KfPfJfvOhKmRuubwnVweTh79n_vlU4Otph5r8kX_Y3Mnmjd60swPQkX65hu_9lr-qDwCO42AGssBD-Rv-PNccP8d-002ua_b4yWa48EYJf3nApMJK-UCH3lCbBJliPJgg6nhMZccth-stngz4rnp46VIFt6h0z0qxm-?purpose=fullsize',
+    title: 'Recipe Web Application',
     description:
-      'Recipe management application with authentication, CRUD operations, search functionality, and admin ingredient control.',
-    technologies: ['Java', 'HTML5', 'CSS3', 'JavaScript', 'REST API'],
+      'Built a web-based recipe management system with CRUD operations and user interaction features. Designed backend logic and integrated frontend for a complete full-stack experience.',
+    technologies: ['Java', 'HTML', 'CSS', 'JavaScript'],
     demoUrl: '#',
-    codeUrl:
-      'https://github.com/Syedasif101/Syedasif101-PEP-VS-WebDevProject-Recipe',
+    codeUrl: 'https://github.com/shivamdaffar07/shivamdaffar07-PEP-VS-WebDevProject-Recipe',
   },
 ];
 
@@ -148,7 +136,7 @@ const ProjectsSection = () => {
           variants={fadeIn('up', 'tween', 0.3, 1)}
         >
           <a
-            href="https://github.com/Syedasif101"
+            href="https://github.com/shivamdaffar07"
             className="inline-flex items-center bg-transparent border border-accent text-accent hover:bg-accent hover:text-white transition-colors py-2 px-6 rounded-full font-poppins"
           >
             View All Projects <FaEye className="ml-2" />

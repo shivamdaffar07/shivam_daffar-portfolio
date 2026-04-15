@@ -2,7 +2,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaInstagram,
-  FaChessQueen,
 } from 'react-icons/fa';
 
 const Footer = () => {
@@ -20,7 +19,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-10 items-center">
           {/* BRAND */}
           <div>
-            <h1 className="text-3xl font-bold gradient-text">aasif.</h1>
+            <h1 className="text-3xl font-bold gradient-text">Shivam Daffar</h1>
             <p className="text-textSecondary mt-4 text-sm leading-relaxed max-w-sm">
               Java Full Stack Developer focused on building scalable,
               user-friendly web applications and modern digital experiences.
@@ -60,20 +59,18 @@ const Footer = () => {
                 <FaLinkedin />
               </SocialIcon>
 
-              <SocialIcon href="https://www.instagram.com/aasif.io/">
+              <SocialIcon href="https://www.instagram.com/j_ack_rabbit/">
                 <FaInstagram />
               </SocialIcon>
 
-              <SocialIcon href="https://www.chess.com/member/syed_73">
-                <FaChessQueen />
-              </SocialIcon>
+               
             </div>
           </div>
         </div>
 
         {/* COPYRIGHT */}
         <div className="mt-14 pt-6 border-t border-accent/10 text-center text-textSecondary text-sm">
-          © {currentYear} aasif. Built with ❤️ using React & Tailwind.
+          © {currentYear} shivam Daffar Built with ❤️ using React & Tailwind.
         </div>
       </div>
     </footer>

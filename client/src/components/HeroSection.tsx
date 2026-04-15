@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaInstagram, FaChess } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { staggerContainer, fadeIn } from '@/lib/animations';
-import profileImage from './asif.png';
+import profileImage from './shivam.png'; // replace with your image later
+
 const HeroSection = () => (
   <section
     id="home"
@@ -14,6 +15,8 @@ const HeroSection = () => (
       animate="show"
     >
       <div className="flex flex-col-reverse md:flex-row items-center">
+        
+        {/* LEFT SIDE */}
         <motion.div
           className="md:w-1/2 mt-10 md:mt-0"
           variants={fadeIn('right', 'tween', 0.2, 1)}
@@ -21,35 +24,35 @@ const HeroSection = () => (
           <h2 className="text-xl md:text-2xl font-poppins mb-2 text-textSecondary">
             Hello, I'm
           </h2>
+
           <h1 className="text-5xl md:text-7xl font-poppins font-bold mb-4">
-            <span className="gradient-text">asif</span>
+            <span className="gradient-text">Shivam Daffar</span>
           </h1>
+
           <h3 className="text-2xl md:text-3xl font-poppins mb-6 text-textSecondary">
-            Java Full Stack Developer
+            Software Engineer | Java Full Stack Developer
           </h3>
+
           <p className="text-textSecondary mb-8 max-w-xl text-lg leading-relaxed">
-            I build exceptional and accessible digital experiences for the web.
-            Focused on creating scalable and user-friendly applications.
+            Computer Science graduate focused on building scalable backend systems 
+            and full-stack web applications. Strong in Java, DSA, and REST APIs.
           </p>
+
           <ActionButtons />
           <SocialLinks />
         </motion.div>
+
+        {/* RIGHT SIDE IMAGE */}
         <motion.div
           className="md:w-1/2 flex justify-center items-center"
           variants={fadeIn('left', 'tween', 0.4, 1)}
         >
-          <div className="flex justify-center items-center">
-            <div
-              className="w-60 md:w-60 
-                 shadow-xl 
-                "
-            >
-              <img
-                src={profileImage}
-                alt="Profile"
-                className="w-full h-auto object-cover"
-              />
-            </div>
+          <div className="w-60 shadow-xl">
+            <img
+              src={profileImage}
+              alt="Profile"
+              className="w-full h-auto object-cover"
+            />
           </div>
         </motion.div>
       </div>
@@ -57,7 +60,7 @@ const HeroSection = () => (
   </section>
 );
 
-// Modularized ActionButtons
+// BUTTONS
 const ActionButtons = () => (
   <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
     <a
@@ -66,41 +69,33 @@ const ActionButtons = () => (
     >
       Contact Me
     </a>
+
     <a
       href="#projects"
       className="border-2 border-accent text-accent hover:bg-accent/10 font-poppins py-3 px-8 rounded-lg transition-colors text-center"
     >
-      View My Work
+      View Projects
     </a>
   </div>
 );
 
-// Modularized SocialLinks
+// SOCIAL LINKS (cleaned)
 const SocialLinks = () => (
   <div className="flex mt-10 space-x-6">
     <a
-      href="https://github.com/Syedasif101"
+      href="https://github.com/shivamdaffar07"
+      target="_blank"
       className="text-textSecondary hover:text-accent transition-colors"
     >
       <FaGithub className="text-2xl" />
     </a>
+
     <a
-      href="https://www.linkedin.com/in/syed-asif101/"
+      href="https://www.linkedin.com/in/shivam-daffar-96868b19a"
+      target="_blank"
       className="text-textSecondary hover:text-accent transition-colors"
     >
       <FaLinkedin className="text-2xl" />
-    </a>
-    <a
-      href="https://www.chess.com/member/syed_73"
-      className="text-textSecondary hover:text-accent transition-colors"
-    >
-      <FaChess className="text-2xl" />
-    </a>
-    <a
-      href="https://www.instagram.com/aasif.io/"
-      className="text-textSecondary hover:text-accent transition-colors"
-    >
-      <FaInstagram className="text-2xl" />
     </a>
   </div>
 );

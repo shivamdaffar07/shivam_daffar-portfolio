@@ -7,7 +7,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaInstagram,
-  FaChess,
 } from 'react-icons/fa';
 import { staggerContainer, fadeIn } from '@/lib/animations';
 import { Button } from '@/components/ui/button';
@@ -83,7 +82,7 @@ const ContactSection = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleInputChange}
-                  placeholder="Syed Asif"
+                  placeholder="Shivam Daffar"
                   className="bg-secondary border border-accent/10 mt-2"
                   required
                 />
@@ -96,7 +95,7 @@ const ContactSection = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  placeholder="asif@example.com"
+                  placeholder="shivamdaffar07@gmail.com"
                   className="bg-secondary border border-accent/10 mt-2"
                   required
                 />
@@ -150,17 +149,17 @@ const ContactSection = () => {
                 <ContactItem
                   icon={<FaMapMarkerAlt />}
                   title="Location"
-                  value="Srinagar, India"
+                  value="Amravati, Maharashtra, India"
                 />
                 <ContactItem
                   icon={<FaEnvelope />}
                   title="Email"
-                  value="syed.asif@outlook.in"
+                  value="shivamdaffar07@gmail.com"
                 />
                 <ContactItem
                   icon={<FaPhone />}
                   title="Phone"
-                  value="+91 9596283631"
+                  value="+91 7083567637"
                 />
               </div>
 
@@ -169,16 +168,14 @@ const ContactSection = () => {
                 <h4 className="mb-4 font-semibold">Connect with me</h4>
 
                 <div className="flex gap-4">
-                  <SocialIcon href="https://github.com/Syedasif101">
+                  <SocialIcon href="https://github.com/shivamdaffar07">
                     <FaGithub />
                   </SocialIcon>
-                  <SocialIcon href="https://www.linkedin.com/in/syed-asif101/">
+                  <SocialIcon href="https://www.linkedin.com/in/shivam-daffar-96868b19a">
                     <FaLinkedin />
                   </SocialIcon>
-                  <SocialIcon href="https://www.chess.com/member/syed_73">
-                    <FaChess />
-                  </SocialIcon>
-                  <SocialIcon href="https://www.instagram.com/aasif.io/">
+                    
+                  <SocialIcon href="https://www.instagram.com/j_ack_rabbit/">
                     <FaInstagram />
                   </SocialIcon>
                 </div>

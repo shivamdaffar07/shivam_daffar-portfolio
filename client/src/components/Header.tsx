@@ -42,11 +42,11 @@ const Header = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <div>
-          <h1 className="text-2xl md:text-3xl font-poppins font-bold">
+          <h2 className="text-2xl md:text-3xl font-poppins font-bold">
             <a href="#home" className="gradient-text">
-              aasif.
+              Shivam Daffar
             </a>
-          </h1>
+          </h2>
         </div>
         
         <nav className="hidden md:flex space-x-8">
