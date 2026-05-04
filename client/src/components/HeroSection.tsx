@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiLeetcode } from "react-icons/si";
 import { staggerContainer, fadeIn } from '@/lib/animations';
 import profileImage from './shivam.png'; // replace with your image later
 
@@ -97,6 +98,15 @@ const SocialLinks = () => (
     >
       <FaLinkedin className="text-2xl" />
     </a>
+
+    <a
+  href="https://leetcode.com/u/Shivam_Daffar/"
+  target="_blank"
+  className="text-textSecondary hover:text-accent transition-colors"
+   
+>
+  <SiLeetcode className="text-2xl" />
+</a>
   </div>
 );
 
